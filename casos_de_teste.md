@@ -14,4 +14,4 @@
 Exibir mensagem de erro informando dados inválidos  
 
 **Resultado obtido:**
-(Ainda não testado)
+O sistema exibiu mensagem de erro informando que o e-mail ou senha estão incorretos, impedindo o login.

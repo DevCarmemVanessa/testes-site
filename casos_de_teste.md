@@ -37,3 +37,22 @@ O botão de login permanece desabilitado (cor mais clara), impedindo o envio do 
 
 **Status:**
 ✅ Aprovado
+
+## Teste 3 — Login com e-mail inválido
+
+**Cenário:** Usuário tenta fazer login com formato de e-mail inválido  
+
+**Passos:**
+1. Acessar o site da Shopee  
+2. Clicar em "Entrar"  
+3. Inserir e-mail inválido (ex: abc)  
+4. Inserir qualquer senha  
+5. Observar comportamento do sistema  
+
+**Resultado esperado:**
+O sistema deve identificar o formato inválido de e-mail e impedir o login  
+
+**Resultado obtido:**
+O sistema não permite o envio do formulário com e-mail inválido, mantendo o botão de login desabilitado ou exibindo validação no campo  
+
+**Status:** ✅ Aprovado
